@@ -1,14 +1,25 @@
 <div align="center">
-🛡️ Nawaye Nisa
-Pakistan's AI-Powered Survivor Support Platform for Women
-Empowering survivors. Preserving evidence. Enabling justice.
-![React](https://react.dev/)
-![TypeScript](https://www.typescriptlang.org/)
-![Firebase](https://firebase.google.com/)
-![AI Powered](#-ai-feature)
-![Vercel](https://vercel.com/)
-Live Demo · Report Bug · Request Feature
+
+# 🛡️ Nawaye Nisa
+
+### Pakistan's AI-Powered Survivor Support Platform for Women
+
+**Empowering survivors. Preserving evidence. Enabling justice.**
+
 </div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white">
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/Firebase-Enabled-FFCA28?logo=firebase&logoColor=black">
+  <img src="https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel">
+</p>
+
+<p align="center">
+  <a href="YOUR_LIVE_URL">🌐 Live Demo</a> •
+  <a href="../../issues">🐛 Report Bug</a> •
+  <a href="../../issues">💡 Request Feature</a>
+</p>
 
 
 
@@ -112,33 +123,39 @@ https://github.com/your-username/nawaye-nisa
 
 
 
-📸 Screenshots
-<br>
-🔐 Login Screen
-![Login Screen](./screenshots/login.png)
+# 📸 Screenshots
+
+## 🔐 Login Screen
+
+![Login Screen](screenshots/login.png)
+
 A clean, distraction-free login screen backed by Firebase Authentication for secure session management.
-<br>
-📊 Dashboard
-![Dashboard](./screenshots/dashboard.png)
+
+## 📊 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
 The survivor's home base — a summary of recent reports, quick actions, and access to every core feature in one glance.
-<br>
-🤖 AI Assistant
-![AI Assistant](./screenshots/ai-assistant.png)
+
+## 🤖 AI Assistant
+
+![AI Assistant](screenshots/ai-assistant.png)
+
 A conversational interface where survivors describe events naturally, and the AI organizes them into a structured, factual account.
-<br>
-📂 Evidence Vault
-![Evidence Vault](./screenshots/evidence-vault.png)
-A secure, encrypted repository for screenshots, photos, audio, and documents, organized by incident.
-<br>
-🚨 Emergency Center
-![Emergency Center](./screenshots/emergency-center.png)
-A one-tap emergency interface that alerts trusted contacts and surfaces nearby help options immediately.
-<br>
-👤 Profile
-![Profile](./screenshots/profile.png)
-A personal space to manage account details, preferences, and privacy settings.
-<br>
----
+
+## 📂 Evidence Vault
+
+![Evidence Vault](screenshots/evidence-vault.png)
+
+A secure, encrypted repository where survivors can safely store screenshots, photos, audio recordings, videos, and important documents. All evidence is organized by incident, making it easy to retrieve, review, and use when preparing reports or seeking legal assistance.
+
+
+
+## 🚨 Emergency Center
+
+![Emergency Center](screenshots/emergency-center.png)
+
+A dedicated emergency hub that provides one-tap access to trusted contacts, emergency helplines, and nearby support resources. In critical situations, survivors can quickly reach help and share their location to ensure a faster response.
 
 
 
