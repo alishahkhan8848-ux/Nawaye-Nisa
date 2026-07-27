@@ -1,0 +1,507 @@
+Act as a Principal Product Designer at Apple with over 20 years of experience in enterprise SaaS, healthcare, cybersecurity, legal-tech and AI applications.
+
+DO NOT redesign my application.
+
+DO NOT change the overall layout, theme or branding.
+
+Keep the existing UI, navigation, colors and design language exactly as they are.
+
+Your task is ONLY to polish, improve and professionalize my existing design.
+
+The application name is "Nawaye Nisa".
+
+It is Pakistan's first AI-powered survivor support platform designed to help women safely document harassment, domestic violence, cybercrime, workplace harassment, assault, blackmail, stalking and gender-based violence while preserving digital evidence and receiving AI-powered assistance.
+
+The application should feel like a real startup backed by Microsoft or Google.
+
+====================================================
+
+KEEP
+
+• Current color palette
+• Existing screen order
+• Existing navigation
+• Existing dashboard
+• Existing branding
+• Existing icons
+• Existing typography
+
+Do not redesign.
+
+Only improve.
+
+====================================================
+
+DESIGN QUALITY
+
+Improve spacing.
+
+Improve hierarchy.
+
+Improve consistency.
+
+Improve alignment.
+
+Improve typography.
+
+Improve responsiveness.
+
+Improve card layouts.
+
+Improve visual balance.
+
+Improve accessibility.
+
+Improve forms.
+
+Improve interactions.
+
+Every screen should look production ready.
+
+====================================================
+
+REMOVE
+
+Any childish feeling.
+
+Any Canva style.
+
+Any concept-art feeling.
+
+Any oversized cards.
+
+Any oversized icons.
+
+Any unnecessary illustrations.
+
+Any inconsistent spacing.
+
+Any unrealistic placeholders.
+
+====================================================
+
+MAKE THE UI FEEL LIKE
+
+Apple Health
+
+Apple Wallet
+
+Google Wallet
+
+Stripe Dashboard
+
+Notion Mobile
+
+Microsoft Fluent
+
+Uber
+
+Airbnb
+
+Linear
+
+Professional.
+
+Elegant.
+
+Minimal.
+
+Trustworthy.
+
+====================================================
+
+MOST IMPORTANT IMPROVEMENTS
+
+The Report Incident screen must become a professional enterprise form.
+
+Do NOT use simple text fields.
+
+Use proper searchable dropdowns.
+
+Create cascading dropdowns.
+
+Province
+
+↓
+
+Division
+
+↓
+
+District
+
+↓
+
+Tehsil
+
+↓
+
+Union Council (optional)
+
+↓
+
+City
+
+Every dropdown should contain realistic Pakistani sample values.
+
+Example
+
+Punjab
+
+↓
+
+Lahore Division
+
+↓
+
+Lahore District
+
+↓
+
+Model Town Tehsil
+
+↓
+
+Lahore
+
+Sindh
+
+↓
+
+Karachi Division
+
+↓
+
+Karachi South
+
+↓
+
+Saddar
+
+↓
+
+Karachi
+
+Do not replace dropdowns with text inputs.
+
+====================================================
+
+Improve Incident Form
+
+Add
+
+Incident Category
+
+Date
+
+Time
+
+Risk Level
+
+Relationship with Accused
+
+Witness Available
+
+Description
+
+Voice Recording
+
+Evidence Upload
+
+Current Location
+
+Exact Address
+
+Police Station
+
+Nearest Hospital
+
+Women's Protection Center
+
+Emergency Contact
+
+Progress Stepper
+
+====================================================
+
+Dashboard
+
+Keep current layout.
+
+Improve professionalism.
+
+Add
+
+Recent Reports
+
+AI Insights
+
+Evidence Summary
+
+Monthly Activity
+
+Quick Actions
+
+Emergency Shortcut
+
+Trusted Contacts
+
+Legal Rights
+
+Safety Tips
+
+Recent Activity
+
+Statistics Cards
+
+====================================================
+
+AI Assistant
+
+Do not look like ChatGPT.
+
+Make it look like an enterprise AI Case Assistant.
+
+Add
+
+Suggested Prompts
+
+Conversation History
+
+Risk Summary
+
+Evidence Checklist
+
+Timeline
+
+Generate Complaint
+
+Generate Summary
+
+Next Recommended Step
+
+====================================================
+
+Evidence Vault
+
+Transform it into a professional encrypted document manager.
+
+Support
+
+Images
+
+Videos
+
+Audio
+
+PDF
+
+Documents
+
+Timeline View
+
+Gallery View
+
+List View
+
+Search
+
+Filters
+
+Tags
+
+Upload Progress
+
+Preview
+
+Encrypted Badge
+
+====================================================
+
+Emergency Center
+
+Improve UI.
+
+Add
+
+SOS
+
+Police
+
+Rescue 1122
+
+Women's Helpline
+
+Cyber Crime Wing
+
+Trusted Contacts
+
+Nearest Hospital
+
+Women's Protection Center
+
+Safe Exit
+
+Emergency Tips
+
+====================================================
+
+Report History
+
+Professional table.
+
+Search.
+
+Filter.
+
+Sort.
+
+Status Badge.
+
+Download PDF.
+
+View Details.
+
+Delete.
+
+====================================================
+
+Legal Rights
+
+Professional cards.
+
+Cyber Crime.
+
+Domestic Violence.
+
+Harassment.
+
+Workplace Rights.
+
+Child Protection.
+
+Emergency Laws.
+
+Bookmark.
+
+Search.
+
+====================================================
+
+Notifications
+
+Timeline layout.
+
+Unread badge.
+
+Security alerts.
+
+Evidence updates.
+
+AI updates.
+
+====================================================
+
+Profile
+
+Professional.
+
+Usage Statistics.
+
+Reports Created.
+
+Evidence Uploaded.
+
+Language.
+
+Security Status.
+
+Membership Since.
+
+====================================================
+
+Settings
+
+Dark Mode
+
+Language
+
+Notifications
+
+Biometric Lock
+
+PIN Lock
+
+Privacy
+
+Backup
+
+Delete Account
+
+Safe Exit
+
+====================================================
+
+COMPONENTS
+
+Use Auto Layout.
+
+Use reusable components.
+
+Create consistent buttons.
+
+Consistent input fields.
+
+Consistent dropdowns.
+
+Professional cards.
+
+Consistent spacing.
+
+====================================================
+
+MICRO INTERACTIONS
+
+Smooth page transitions.
+
+Button press animation.
+
+Loading states.
+
+Upload animation.
+
+AI typing animation.
+
+Success animation.
+
+Subtle only.
+
+====================================================
+
+ACCESSIBILITY
+
+WCAG AA.
+
+Readable typography.
+
+Large touch targets.
+
+High contrast.
+
+Accessible forms.
+
+Accessible errors.
+
+====================================================
+
+FINAL INSTRUCTION
+
+Do NOT redesign my project.
+
+Do NOT generate a new concept.
+
+Keep my existing design.
+
+Simply polish every screen until it looks like a real production-ready application available on the Apple App Store.
+
+The final UI should feel like a premium enterprise AI application built by a world-class startup.

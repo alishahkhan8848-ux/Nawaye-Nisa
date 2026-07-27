@@ -1,0 +1,45 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Each user can only read/write their own profile document.
+    match /users/{uid} {
+      allow read, update: if request.auth != null && request.auth.uid == uid;
+      allow create: if request.auth != null && request.auth.uid == uid;
+      allow delete: if false;
+    }
+
+    // phoneIndex lets the login screen resolve "phone -> email" BEFORE the
+    // person is authenticated, so it must be publicly readable. It only ever
+    // stores a uid + email pair (never the rest of the profile), and can only
+    // be created once per phone number, by the account owner, at registration.
+    match /phoneIndex/{phone} {
+      allow get: if true;
+      allow list: if false;
+      allow create: if request.auth != null
+                    && request.resource.data.uid == request.auth.uid
+                    && !exists(/databases/$(database)/documents/phoneIndex/$(phone));
+      allow update, delete: if false;
+    }
+
+    // Evidence metadata records. Only the owner can read/write their own.
+    match /evidence/{evidenceId} {
+      allow read, delete: if request.auth != null && request.auth.uid == resource.data.uid;
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.uid;
+      // Evidence is otherwise immutable once uploaded (delete + re-upload instead), with one
+      // exception: the owner may set reportId exactly once, from null, to attach evidence that
+      // was uploaded before its report existed (evidence upload happens mid-form, the report
+      // document isn't created until the form is submitted).
+      allow update: if request.auth != null
+                    && request.auth.uid == resource.data.uid
+                    && resource.data.reportId == null
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['reportId']);
+    }
+
+    // Incident reports. Only the owner can read/create/update/delete their own.
+    match /reports/{reportId} {
+      allow read, update, delete: if request.auth != null && request.auth.uid == resource.data.uid;
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.uid;
+    }
+  }
+}
