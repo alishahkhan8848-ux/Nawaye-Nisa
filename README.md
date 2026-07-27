@@ -133,7 +133,7 @@ A clean, distraction-free login screen backed by Firebase Authentication for sec
 
 ## 📊 Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/Dashboard.png)
 
 The survivor's home base — a summary of recent reports, quick actions, and access to every core feature in one glance.
 
