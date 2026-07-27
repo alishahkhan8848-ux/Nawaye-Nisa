@@ -125,9 +125,6 @@ A one-tap emergency interface that alerts trusted contacts and surfaces nearby h
 Profile
 ![Profile](screenshots/profile.png)
 A personal space to manage account details, preferences, and privacy settings.
-Settings
-![Settings](screenshots/settings.png)
-Granular control over notifications, language, data sharing, and account security.
 Legal Rights
 ![Legal Rights](screenshots/legal-rights.png)
 A plain-language guide to relevant laws and protections available to survivors in Pakistan.
