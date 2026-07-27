@@ -7,10 +7,9 @@ Empowering survivors. Preserving evidence. Enabling justice.
 ![Firebase](https://firebase.google.com/)
 ![AI Powered](#-ai-feature)
 ![Vercel](https://vercel.com/)
-![License: MIT](#-license)
 Live Demo · Report Bug · Request Feature
 </div>
----
+
 
 
 
@@ -35,8 +34,8 @@ Future Improvements
 Testing
 Why This Project Matters
 Author
-License
----
+
+
 
 
 
@@ -58,7 +57,7 @@ Why Pakistan Needs This Solution
 Legal literacy, privacy concerns, and social stigma often keep survivors from coming forward. A locally-relevant platform — one that understands Pakistan's provinces, districts, and legal framework — closes the gap between "wanting help" and "getting help."
 Why AI Improves the Process
 Recalling and structuring traumatic events is difficult, especially under stress. AI assistance helps survivors organize scattered memories into a clear, chronological account, draft a complaint in appropriate legal language, and do so without ever feeling judged or rushed.
----
+
 
 
 
@@ -76,7 +75,7 @@ Lack of Legal Awareness	Most survivors do not know their rights or the correct r
 Emotional Barriers	Fear, shame, and trauma make it difficult to speak about incidents, even to authorities.
 Privacy Concerns	Survivors fear their data being exposed to abusers, family, or the public.
 Each of these barriers compounds the others — a survivor who fears for her privacy is less likely to report; one who lacks legal knowledge is less likely to preserve the right evidence. Nawaye Nisa was designed to address them together, not in isolation.
----
+
 
 
 
@@ -93,16 +92,22 @@ Delayed Reporting	AI Assistant lowers the effort needed to start a report
 Lack of Legal Awareness	Dedicated Legal Rights section in plain, accessible language
 Emotional Barriers	Empathetic AI tone that never blames or pressures the survivor
 Privacy Concerns	Firebase Authentication, strict Firestore rules, and private-by-default data
----
+
 
 
 
 🚀 Live Demo
+
 🌐 Live Website
+
+
 https://nawaye-nisa.vercel.app/
+
+
 📦 GitHub Repository
+
+
 https://github.com/your-username/nawaye-nisa
----
 
 
 
@@ -140,6 +145,7 @@ A personal space to manage account details, preferences, and privacy settings.
 
 
 ✨ Features
+
 Category	Feature	Description
 Authentication	Secure Login	Firebase-backed login with session persistence
 	Registration	Minimal-data sign-up with privacy-first defaults
@@ -223,10 +229,10 @@ Your responsibilities:
 🛠️ Tech Stack
 Layer	Technology
 Frontend	React (TypeScript)
-Backend	Firebase Cloud Functions
+Backend	Firebase Cloud Functions(not fully functional because of upgrade)
 Authentication	Firebase Authentication
-Database	Cloud Firestore
-Storage	Firebase Storage
+Database	Cloud Firestore(not fully functional because of upgrade)
+Storage	Firebase Storage(not fully functional because of upgrade)
 Deployment	Vercel
 Language	TypeScript
 Version Control	Git & GitHub
@@ -466,7 +472,7 @@ This project is a reminder that software can do more than solve technical proble
 👤 Author
 Alishah Khan
 Final Year Project — AI-Powered Application Development
-GitHub: @your-username
+GitHub: @alishahkhan8848-ux
 Project Repository: Nawaye Nisa
 Live Demo: nawaye-nisa.vercel.app
 ---
