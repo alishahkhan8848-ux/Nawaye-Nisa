@@ -2,12 +2,12 @@
 🛡️ Nawaye Nisa
 Pakistan's AI-Powered Survivor Support Platform for Women
 Empowering survivors. Preserving evidence. Enabling justice.
-![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-Backend-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![AI Powered](https://img.shields.io/badge/AI-Powered-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
-![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+![React](https://react.dev/)
+![TypeScript](https://www.typescriptlang.org/)
+![Firebase](https://firebase.google.com/)
+![AI Powered](#-ai-feature)
+![Vercel](https://vercel.com/)
+![License: MIT](#-license)
 Live Demo · Report Bug · Request Feature
 </div>
 ---
@@ -85,61 +85,31 @@ https://nawaye-nisa.vercel.app/
 https://github.com/your-username/nawaye-nisa
 ---
 📸 Screenshots
-
-Splash Screen
-![Splash Screen](screenshots/splash.png)
-The entry point of the application, featuring the Nawaye Nisa logo and a calm, reassuring visual tone designed to feel safe from the very first second.
-Onboarding
-![Onboarding](screenshots/onboarding.png)
-A short, guided walkthrough introducing survivors to the platform's core capabilities without overwhelming them with information.
-Register
-![Register](screenshots/register.png)
-A secure sign-up flow that collects only the minimum information required, with clear privacy assurances shown at every step.
-Login
-![Login](screenshots/login.png)
+<br>
+🔐 Login Screen
+![Login Screen](./screenshots/login.png)
 A clean, distraction-free login screen backed by Firebase Authentication for secure session management.
-Dashboard
-![Dashboard](screenshots/dashboard.png)
+<br>
+📊 Dashboard
+![Dashboard](./screenshots/dashboard.png)
 The survivor's home base — a summary of recent reports, quick actions, and access to every core feature in one glance.
-Incident Reporting
-![Incident Reporting](screenshots/incident-reporting.png)
-A structured form for documenting what happened, when, and where, designed to be completed even in emotionally difficult moments.
-AI Assistant
-![AI Assistant](screenshots/ai-assistant.png)
+<br>
+🤖 AI Assistant
+![AI Assistant](./screenshots/ai-assistant.png)
 A conversational interface where survivors describe events naturally, and the AI organizes them into a structured, factual account.
-Complaint Preview
-![Complaint Preview](screenshots/complaint-preview.png)
-An auto-generated complaint draft, formatted for legal submission, that the survivor can review and edit before finalizing.
-Evidence Vault
-![Evidence Vault](screenshots/evidence-vault.png)
+<br>
+📂 Evidence Vault
+![Evidence Vault](./screenshots/evidence-vault.png)
 A secure, encrypted repository for screenshots, photos, audio, and documents, organized by incident.
-Timeline
-![Timeline](screenshots/timeline.png)
-A chronological visualization of all reported incidents, making patterns of abuse easier to see and prove.
-Trusted Contacts
-![Trusted Contacts](screenshots/trusted-contacts.png)
-A private list of people the survivor can notify instantly in the event of an emergency.
-Emergency Mode
-![Emergency Mode](screenshots/emergency-mode.png)
+<br>
+🚨 Emergency Center
+![Emergency Center](./screenshots/emergency-center.png)
 A one-tap emergency interface that alerts trusted contacts and surfaces nearby help options immediately.
-Profile
-![Profile](screenshots/profile.png)
+<br>
+👤 Profile
+![Profile](./screenshots/profile.png)
 A personal space to manage account details, preferences, and privacy settings.
-Legal Rights
-![Legal Rights](screenshots/legal-rights.png)
-A plain-language guide to relevant laws and protections available to survivors in Pakistan.
-Nearby Help
-![Nearby Help](screenshots/nearby-help.png)
-A location-aware directory of nearby police stations, shelters, and legal aid organizations.
-Awareness
-![Awareness](screenshots/awareness.png)
-Educational content designed to help survivors and their communities recognize the signs of abuse.
-Notifications
-![Notifications](screenshots/notifications.png)
-Real-time alerts for report updates, trusted contact responses, and safety reminders.
-Report History
-![Report History](screenshots/report-history.png)
-A complete archive of past reports, searchable and exportable when needed for legal proceedings.
+<br>
 ---
 ✨ Features
 Category	Feature	Description
@@ -327,13 +297,13 @@ The app will be available at `http://localhost:5173` (or the port shown in your 
 🔐 Environment Variables
 Nawaye Nisa requires a `.env` file for local development. Never commit your `.env` file or expose real credentials. Use `.env.example` as a reference template.
 ```env
-VITE_FIREBASE_API_KEY=
-VITE_FIREBASE_AUTH_DOMAIN=
-VITE_FIREBASE_PROJECT_ID=
-VITE_FIREBASE_STORAGE_BUCKET=
-VITE_FIREBASE_MESSAGING_SENDER_ID=
-VITE_FIREBASE_APP_ID=
-VITE_AI_API_KEY=
+VITE\_FIREBASE\_API\_KEY=
+VITE\_FIREBASE\_AUTH\_DOMAIN=
+VITE\_FIREBASE\_PROJECT\_ID=
+VITE\_FIREBASE\_STORAGE\_BUCKET=
+VITE\_FIREBASE\_MESSAGING\_SENDER\_ID=
+VITE\_FIREBASE\_APP\_ID=
+VITE\_AI\_API\_KEY=
 ```
 Add `.env` to your `.gitignore` before your first commit to ensure secrets are never pushed to the repository.
 ---
@@ -395,9 +365,9 @@ Every survivor deserves to be believed, protected, and heard — without having 
 This project is a reminder that software can do more than solve technical problems — it can restore a small measure of control to someone who has had it taken away. If even one survivor feels safer, more informed, or more empowered because of this platform, it will have done its job.
 ---
 👤 Author
-ALISHAH KHAN 
+Alishah Khan
 Final Year Project — AI-Powered Application Development
-GitHub: @https://github.com/alishahkhan8848-ux
+GitHub: @your-username
 Project Repository: Nawaye Nisa
 Live Demo: nawaye-nisa.vercel.app
 ---
