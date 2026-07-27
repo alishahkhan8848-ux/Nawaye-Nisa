@@ -66,10 +66,11 @@ function AppShell() {
   // straight to the dashboard for a returning signed-in user, skipping the
   // splash/onboarding/login screens they've already been through.
   useEffect(() => {
-    if (loading || authResolvedOnce) return
-    setAuthResolvedOnce(true)
-    if (user) setScreen('dashboard')
-  }, [loading, user, authResolvedOnce])
+  if (loading || authResolvedOnce) return
+  setAuthResolvedOnce(true)
+  setScreen('login')
+}, [loading, authResolvedOnce])
+    // if (user) setScreen('dashboard')
 
   // If the session ends (sign out, or the token becomes invalid) while the
   // person is on a screen that requires auth, send them back to login rather
