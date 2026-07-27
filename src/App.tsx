@@ -225,6 +225,3 @@ export default function App() {
     </AuthProvider>
   )
 }
-export default function App() {
-  return <h1 style={{ color: "red" }}>APP IS WORKING</h1>;
-}
