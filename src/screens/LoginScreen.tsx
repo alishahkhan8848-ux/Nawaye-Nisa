@@ -44,7 +44,6 @@ async function handleSignIn() {
     console.log("After navigate");
   }, 800)
 }
-
   return (
     <div className="flex flex-col h-full bg-white">
       <StatusBar />
