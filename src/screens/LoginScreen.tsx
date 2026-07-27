@@ -33,26 +33,15 @@ export default function LoginScreen({ navigate }: NavProps) {
     }
   }
 
-  async function handleSignIn() {
-    setError('')
-    if (!isValidPakistaniPhone(phone)) {
-      setError('Enter a valid Pakistani phone number, e.g. 3001234567.')
-      return
-    }
-    if (!pw) {
-      setError('Enter your password.')
-      return
-    }
-    setSubmitting(true)
-    try {
-      await login(phone, pw)
-      navigate('dashboard')
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Sign in failed. Please try again.')
-    } finally {
-      setSubmitting(false)
-    }
-  }
+async function handleSignIn() {
+  setError('')
+  setSubmitting(true)
+
+  setTimeout(() => {
+    setSubmitting(false)
+    navigate('dashboard')
+  }, 800)
+}
 
   return (
     <div className="flex flex-col h-full bg-white">
@@ -178,7 +167,7 @@ export default function LoginScreen({ navigate }: NavProps) {
             </>
           ) : (
             <>
-              Sign In
+              TEST LOGIN
               <ChevronRight size={18} strokeWidth={2.5} />
             </>
           )}
