@@ -12,11 +12,11 @@
   <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white">
   <img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white">
   <img src="https://img.shields.io/badge/Firebase-Enabled-FFCA28?logo=firebase&logoColor=black">
-  <img src="https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel">
+  <img src="https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel&logoColor=pink">
 </p>
 
 <p align="center">
-  <a href="YOUR_LIVE_URL">🌐 Live Demo</a> •
+ 🌐 Live Website: https://nawaye-nisa.vercel.app 🌐 Live Demo</a> •
   <a href="../../issues">🐛 Report Bug</a> •
   <a href="../../issues">💡 Request Feature</a>
 </p>
@@ -26,6 +26,8 @@
 
 
 📖 Table of Contents
+
+
 Project Overview
 Problem Statement
 Our Solution
@@ -52,6 +54,8 @@ Author
 
 
 🌍 Project Overview
+
+
 Nawaye Nisa ("Voice of Women") is a survivor-centered digital platform built to help women in Pakistan document, report, and respond to incidents of harassment, violence, and abuse — safely, privately, and with the support of AI.
 Why This App Exists
 Every year, thousands of incidents involving harassment, domestic violence, stalking, and cyber-based abuse go unreported in Pakistan. Survivors often face a fragmented, intimidating, and emotionally exhausting process when they try to seek help — one that requires navigating unfamiliar legal language, recalling traumatic details under pressure, and worrying about who will see their information. Nawaye Nisa was built to remove those barriers, one at a time.
@@ -74,6 +78,8 @@ Recalling and structuring traumatic events is difficult, especially under stress
 
 
 ⚠️ Problem Statement
+
+
 Challenge	Description
 Domestic Violence	Survivors frequently lack a private, safe way to document repeated incidents over time.
 Harassment	Workplace and public harassment often goes unreported due to fear of retaliation or disbelief.
@@ -92,6 +98,9 @@ Each of these barriers compounds the others — a survivor who fears for her pri
 
 
 ✅ Our Solution
+
+
+
 Problem	How Nawaye Nisa Solves It
 Domestic Violence	Chronological incident timeline that builds a verifiable history over time
 Harassment	Structured incident reporting with categorization and severity tagging
@@ -118,7 +127,7 @@ https://nawaye-nisa.vercel.app/
 📦 GitHub Repository
 
 
-https://github.com/your-username/nawaye-nisa
+https://github.com/alishahkhan8848-ux/Nawaye-Nisa.git
 
 
 
@@ -163,6 +172,7 @@ A dedicated emergency hub that provides one-tap access to trusted contacts, emer
 
 ✨ Features
 
+
 Category	Feature	Description
 Authentication	Secure Login	Firebase-backed login with session persistence
 	Registration	Minimal-data sign-up with privacy-first defaults
@@ -195,6 +205,8 @@ Design	Responsive Design	Fully responsive across devices
 
 
 🤖 AI Feature
+
+
 The AI Assistant is the emotional and functional core of Nawaye Nisa. It transforms a survivor's raw, often fragmented account of events into a clear, structured, and usable record.
 How It Works
 The survivor describes an incident in their own words, in a supportive chat interface.
@@ -244,6 +256,8 @@ Your responsibilities:
 
 
 🛠️ Tech Stack
+
+
 Layer	Technology
 Frontend	React (TypeScript)
 Backend	Firebase Cloud Functions(not fully functional because of upgrade)
@@ -262,6 +276,8 @@ Design Tool	Figma
 
 
 🏗️ Architecture
+
+
 ```
                         ┌───────────────┐
                         │      User      │
@@ -302,6 +318,8 @@ Design Tool	Figma
 
 
 📁 Folder Structure
+
+
 ```
 nawaye-nisa/
 ├── public/
@@ -351,10 +369,12 @@ nawaye-nisa/
 
 
 ⚙️ Installation
+
+
 Follow these steps to run Nawaye Nisa locally:
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/nawaye-nisa.git
+git clone https://github.com/alishahkhan8848-ux/Nawaye-Nisa.git
 
 # 2. Navigate into the project directory
 cd nawaye-nisa
@@ -379,6 +399,8 @@ The app will be available at `http://localhost:5173` (or the port shown in your 
 
 
 🔐 Environment Variables
+
+
 Nawaye Nisa requires a `.env` file for local development. Never commit your `.env` file or expose real credentials. Use `.env.example` as a reference template.
 ```env
 VITE\_FIREBASE\_API\_KEY=
@@ -398,6 +420,8 @@ Add `.env` to your `.gitignore` before your first commit to ensure secrets are n
 
 
 ☁️ Deployment
+
+
 Nawaye Nisa is deployed using Vercel, connected directly to this GitHub repository.
 Push changes to the `main` branch.
 Vercel automatically detects the push via GitHub integration.
@@ -411,6 +435,8 @@ This setup ensures every merged change is reflected live with zero manual deploy
 
 
 🔒 Privacy & Security
+
+
 Security is not an afterthought in Nawaye Nisa — it is a foundational design principle.
 Authentication: All access is gated behind Firebase Authentication; no data is accessible without a verified session.
 Firestore Rules: Strict, per-user security rules ensure a survivor's data is only ever readable by that survivor.
@@ -426,6 +452,8 @@ Evidence Protection: Uploaded evidence is stored with restricted access rules an
 
 
 🧗 Challenges Faced
+
+
 Building Nawaye Nisa came with real engineering hurdles:
 Firebase Integration: Structuring Firestore collections to support nested incident and evidence data cleanly.
 Authentication: Handling edge cases in session persistence and token refresh across page reloads.
@@ -443,6 +471,8 @@ AI Prompt Engineering: Iterating on the system prompt to ensure consistent empat
 
 
 🔮 Future Improvements
+
+
 Offline-first support for low-connectivity areas
 Integration with official police complaint portals
 Voice-to-text incident reporting for accessibility
@@ -466,6 +496,8 @@ Expanded regional language support
 
 
 🧪 Testing
+
+
 Nawaye Nisa has been manually tested across its core workflows:
 Authentication: Verified registration, login, logout, and session persistence across multiple accounts.
 Reports: Tested incident creation, editing, and timeline ordering across various data combinations.
@@ -479,20 +511,24 @@ Deployment: Verified production builds on Vercel match local development behavio
 
 
 💜 Why This Project Matters
+
+
 Every survivor deserves to be believed, protected, and heard — without having to relive their trauma to prove it. Nawaye Nisa exists because technology, when built with care, can lower the barriers that keep survivors silent: the fear of not being believed, the difficulty of navigating unfamiliar legal systems, and the risk of losing the evidence that could protect them.
 This project is a reminder that software can do more than solve technical problems — it can restore a small measure of control to someone who has had it taken away. If even one survivor feels safer, more informed, or more empowered because of this platform, it will have done its job.
 ---
 
 
 
+## 👤 Author
 
-👤 Author
-Alishah Khan
-Final Year Project — AI-Powered Application Development
-GitHub: @alishahkhan8848-ux
-Project Repository: Nawaye Nisa
-Live Demo: nawaye-nisa.vercel.app
----
+
+**Alishah Khan**
+
+BS Software Engineering  
+COMSATS University Islamabad, Sahiwal Campus
+
+- GitHub: https://github.com/alishahkhan8848-ux
+- Live Demo: https://nawaye-nisa.vercel.app
 
 
 
