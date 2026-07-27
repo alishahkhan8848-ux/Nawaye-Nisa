@@ -39,7 +39,9 @@ async function handleSignIn() {
 
   setTimeout(() => {
     setSubmitting(false)
+    console.log("Before navigate");
     navigate('dashboard')
+    console.log("After navigate");
   }, 800)
 }
 
