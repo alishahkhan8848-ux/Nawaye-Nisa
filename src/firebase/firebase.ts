@@ -6,9 +6,7 @@ import { getStorage } from 'firebase/storage'
 // Fill these in from your Firebase project settings, or provide them via a
 // .env file using the VITE_FIREBASE_* keys below (Vite exposes any env
 // variable prefixed with VITE_ through import.meta.env).
-console.log("ENV:", import.meta.env);
-console.log("API:", import.meta.env.VITE_FIREBASE_API_KEY);
-console.log("API KEY:", import.meta.env.VITE_FIREBASE_API_KEY);
+
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
